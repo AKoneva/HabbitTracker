@@ -11,9 +11,8 @@
 		04C9DECF2AB964E200B53617 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DECE2AB964E200B53617 /* TrackerView.swift */; };
 		04C9DED12AB964E500B53617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C9DED02AB964E500B53617 /* Assets.xcassets */; };
 		04C9DED42AB964E500B53617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C9DED32AB964E500B53617 /* Preview Assets.xcassets */; };
-		04C9DEDD2AB966D900B53617 /* MonthSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEDC2AB966D900B53617 /* MonthSlider.swift */; };
-		04C9DEE32AB9684400B53617 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEE22AB9684400B53617 /* CalendarManager.swift */; };
-		04C9DEE52AB9D42A00B53617 /* ..swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEE42AB9D42A00B53617 /* ..swift */; };
+		04C9DEE72AB9E98C00B53617 /* Habbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEE62AB9E98C00B53617 /* Habbits.swift */; };
+		04C9DEE92AB9ECE900B53617 /* AddHabbitToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEE82AB9ECE900B53617 /* AddHabbitToDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +21,8 @@
 		04C9DECE2AB964E200B53617 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
 		04C9DED02AB964E500B53617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C9DED32AB964E500B53617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04C9DEDC2AB966D900B53617 /* MonthSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthSlider.swift; sourceTree = "<group>"; };
-		04C9DEE22AB9684400B53617 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
-		04C9DEE42AB9D42A00B53617 /* ..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ..swift; sourceTree = "<group>"; };
+		04C9DEE62AB9E98C00B53617 /* Habbits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habbits.swift; sourceTree = "<group>"; };
+		04C9DEE82AB9ECE900B53617 /* AddHabbitToDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabbitToDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 				04C9DEDF2AB9681200B53617 /* App */,
 				04C9DEDE2AB9680600B53617 /* Views */,
 				04C9DEE02AB9681F00B53617 /* Models */,
-				04C9DEE12AB9682F00B53617 /* Managers */,
 				04C9DED02AB964E500B53617 /* Assets.xcassets */,
 				04C9DED22AB964E500B53617 /* Preview Content */,
 			);
@@ -78,9 +75,8 @@
 		04C9DEDE2AB9680600B53617 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04C9DEDC2AB966D900B53617 /* MonthSlider.swift */,
 				04C9DECE2AB964E200B53617 /* TrackerView.swift */,
-				04C9DEE42AB9D42A00B53617 /* ..swift */,
+				04C9DEE82AB9ECE900B53617 /* AddHabbitToDate.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,16 +92,9 @@
 		04C9DEE02AB9681F00B53617 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04C9DEE62AB9E98C00B53617 /* Habbits.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		04C9DEE12AB9682F00B53617 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				04C9DEE22AB9684400B53617 /* CalendarManager.swift */,
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,11 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C9DEE92AB9ECE900B53617 /* AddHabbitToDate.swift in Sources */,
 				04C9DECF2AB964E200B53617 /* TrackerView.swift in Sources */,
-				04C9DEDD2AB966D900B53617 /* MonthSlider.swift in Sources */,
-				04C9DEE52AB9D42A00B53617 /* ..swift in Sources */,
 				04C9DECD2AB964E200B53617 /* AKHabbitsApp.swift in Sources */,
-				04C9DEE32AB9684400B53617 /* CalendarManager.swift in Sources */,
+				04C9DEE72AB9E98C00B53617 /* Habbits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

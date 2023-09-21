@@ -12,7 +12,9 @@ struct AKHabbitsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TrackerView()
+            NavigationView {
+                TrackerView()
+            }
         }
     }
 }
